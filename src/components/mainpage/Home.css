@@ -1,0 +1,174 @@
+.home {
+    margin-top: 20px;
+}
+
+.homeSlider{
+   width: 100%; 
+   margin: 1rem;
+   margin-top: 2rem;
+}
+
+
+
+.secondDesign{
+    display: none;
+}
+
+.homeSlider h1 {
+    font-size: 2rem;
+}
+
+.homeSlider p {
+    margin: 20px 0;
+}
+
+.homeSlider .sliderCard .left{
+    width: 60%;
+ display: flex;
+ flex-direction: column;
+ float: left;
+}
+
+.homeSlider .sliderCard .left button{
+    margin-top: 2rem;
+}
+
+/* .homeSlider ul {
+    position: absolute;
+    bottom: 40px;
+}
+
+.homeSlider ul li {
+    border: 2px solid #b8b7b7;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.homeSlider ul li button {
+    background: transparent !important;
+    color: transparent !important;
+}
+
+.homeSlider ul li button::before {
+    font-size: 15px !important;
+    color: #0f3460;
+    position: absolute;
+    top: 2px;
+    left: 0;
+    margin: auto;
+} */
+
+
+.homeSlider .box img {
+    width:37vh;
+    height:45vh;
+} 
+
+
+/*-----------------------------------------category-----------------------------------------------*/
+
+
+
+.category {
+    width:100%;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    height: auto;
+    padding: 15px 0;
+    border-radius: 10px;
+    /* margin-top: 5px; */
+  }
+  
+  .category img {
+    width: 30px;
+    height: 30px;
+    /* margin-top: 5px; */
+    object-fit: contain;
+  
+  }
+  
+  .category span {
+    margin: 10px 20px;
+    text-transform: capitalize;
+  }
+  
+  .category .childOfCategory {
+    transition: 0.5s;
+    padding: 0 20px;
+  
+  }
+  
+  .category .childOfCategory:hover {
+    background-color: #ffe1ef;
+    cursor: pointer;
+  }
+
+
+
+
+/* Responsive Codes */
+
+
+@media screen and (max-width: 1100px){
+
+
+    .category .childOfCategory span{
+               display: none;
+           }
+
+    .category .childOfCategory img{
+        margin-bottom: .5rem;
+    }
+                
+} 
+
+@media screen and (max-width: 930px){
+    .homeSlider .sliderCard .left h1{
+        font-size: 1.5rem;
+    }
+
+    .homeSlider .sliderCard .left button{
+        margin-bottom: 4rem ;
+    }
+                
+} 
+
+
+@media screen and (max-width: 800px){
+
+
+    .category{
+        display: none;
+    }
+                
+} 
+
+
+@media screen and (max-width: 685px){
+
+    .secondDesign{
+        display: block;
+    }
+    .firstDesign{
+        display: none;
+    }
+
+    .homeSlider{
+        margin-top: 2rem;
+     }
+
+     .homeSlider .sliderCard .left{
+        width: 90%;
+    }
+
+    .homeSlider .sliderCard .left p{
+        display: none;
+    }
+     
+    .homeSlider .sliderCard .left button{
+        margin-top: 2.5rem ;
+        margin-bottom: 1rem ;
+
+    }
+      
+} 
+
