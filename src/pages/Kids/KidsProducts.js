@@ -45,7 +45,7 @@ const KidsProducts = ({ allproduct, addToCart, kProductData }) => {
 
                                     </div>
                                     <div className="price">
-                                        <h4>{price} ₹</h4>
+                                        <h4>{price} $</h4>
                                         <button onClick={() => addToCart(allproduct)} >
                                                 <span onClick={addToCartSuccessAlert} >Add to cart <i class="fa-solid fa-bag-shopping"></i> </span>
                                             </button>

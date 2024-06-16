@@ -28,27 +28,27 @@ const Contact = () => {
                 {/* child 2nd contact details */}
                 <div className="contact-info">
 
-                  <a href="tel:+918871960800" target="_blank" rel="noreferrer">
+                  <a href="tel:+254 716112625" target="_blank" rel="noreferrer">
 
                     <div className="ChaildOfCon_info">
                       <i class="fa-solid fa-phone"></i>
-                      <p>+91 8871960800</p>
+                      <p>+254 716112625</p>
                     </div>
                   </a>
 
-                  <a href="mailto: anandsa271@gmail.com" target="_blank" rel="noreferrer">
+                  <a href="mailto: briancheruiyot776@gmail.com" target="_blank" rel="noreferrer">
 
                     <div className="ChaildOfCon_info">
                       <i class="fa-solid fa-envelope"></i>
-                      <p>anandsa271@gmail.com</p>
+                      <p>briancheruiyot776@gmail.com</p>
                     </div>
                   </a>
 
-                  <a href="https://www.google.co.in/maps/place/Kirodimalnagar,+Chhattisgarh+496005/@21.9270188,83.3240829,15z/data=!3m1!4b1!4m5!3m4!1s0x3a273ca13545b875:0x8070b8be8a62ccb6!8m2!3d21.9269995!4d83.3328377" target="_blank" rel="noreferrer">
+                  <a href="" target="_blank" rel="noreferrer">
 
                     <div className="ChaildOfCon_info">
                       <i class="fa-solid fa-location-dot"></i>
-                      <p>Raigarh, (C. G.)</p>
+                      <p>Kenya, (C. G.)</p>
                     </div>
                   </a>
 
@@ -59,17 +59,17 @@ const Contact = () => {
                 <div className="social_links">
 
 
-                  <a href="https://api.whatsapp.com/send/?phone=%2B918871960800&text&type=phone_number&app_absent=0" target="_blank" rel="noreferrer">
+                  <a href="" target="_blank" rel="noreferrer">
                     <i class="fa-brands fa-whatsapp"></i>
                   </a>
 
-                  <a href="https://www.linkedin.com/in/santosh-kumar-anand-96b670231/" target="_blank" rel="noreferrer">
+                  <a href="/" target="_blank" rel="noreferrer">
                     <i class="fa-brands fa-linkedin"></i>
                   </a>
-                  <a href="https://github.com/Anand271" target="_blank" rel='noreferrer'>
+                  <a href="" target="_blank" rel='noreferrer'>
                     <i class="fa-brands fa-github"></i>
                   </a>
-                  <a href="https://instagram.com/anand_d.e.o?igshid=YmMyMTA2M2Y=" target="_blank" rel='noreferrer'>
+                  <a href="" target="_blank" rel='noreferrer'>
                     <i class="fa-brands fa-instagram"></i>
                   </a>
 
