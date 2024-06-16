@@ -84,7 +84,7 @@ const Footer = () => {
                                 <a href="mailto: briancheruiyot776@gmail.com" target="_blank" rel="noreferrer">Gmail: briancheruiyot776.com</a>
                             </li>
                             <li>
-                                <a href="tel:+918871960800" target="_blank" rel="noreferrer">Call - +91 8871960800</a>
+                                <a href="tel:+254716112625" target="_blank" rel="noreferrer">Call - +254716112625</a>
                             </li>
                         </ul>
                     </div>
